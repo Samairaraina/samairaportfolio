@@ -10,6 +10,7 @@ import Projects from './components/Projects'
 import Experience from './components/Experience'
 import Achievements from './components/Achievements'
 import Contact from './components/Contact'
+import BrainChat from './components/BrainChat'
 import './App.css'
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
       <Experience />
       <Achievements />
       <Contact />
+      <BrainChat />
       <footer className="footer">
         <p>&copy; {new Date().getFullYear()} Samaira Raina. Crafted with precision.</p>
       </footer>

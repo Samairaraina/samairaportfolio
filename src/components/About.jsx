@@ -13,7 +13,7 @@ export default function About() {
   useEffect(() => {
     const timer = setInterval(() => {
       setIndex((i) => (i + 1) % IMAGES.length)
-    }, 4000)
+    }, 2000)
     return () => clearInterval(timer)
   }, [])
 

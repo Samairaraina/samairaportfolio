@@ -15,7 +15,7 @@ const EXPERIENCES = [
   {
     role: 'Web Development Intern',
     company: 'InAmigos Foundation, Bilaspur',
-    period: 'June 2026 – Present',
+    period: 'June 2026 – June 2026',
     highlights: [
       'Developing and maintaining website features to enhance user experience and accessibility.',
       'Working with modern web technologies to build responsive and visually appealing web pages.',

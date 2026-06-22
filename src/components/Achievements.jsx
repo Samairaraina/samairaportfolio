@@ -14,6 +14,12 @@ const CERTIFICATIONS = [
     skills: ['Operational Risk Management', 'Analytical Thinking', 'Problem Solving'],
   },
   {
+    title: 'Google Cloud & NVIDIA Developer Community',
+    subtitle: 'Google Developer Program \u2022 June 2026',
+    description: 'Joined the official Google Cloud & NVIDIA community through the Google Developer Program, gaining access to exclusive learning pathways, expert forums, and cloud credits for AI development.',
+    skills: ['Google Cloud', 'NVIDIA', 'AI Infrastructure', 'Cloud Computing', 'Community'],
+  },
+  {
     title: 'British Airways \u2013 Data Science Job Simulation',
     subtitle: 'Forage \u2022 June 2026',
     description: 'Completed a data science simulation focused on data analysis, modeling, and extracting business insights from datasets.',

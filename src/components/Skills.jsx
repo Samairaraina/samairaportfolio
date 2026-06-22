@@ -40,6 +40,11 @@ const CATEGORIES = [
         icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2l9 5v10l-9 5-9-5V7l9-5z"/><path d="M12 7v10"/><path d="M8 9l4-2 4 2"/></svg>,
       },
       {
+        name: 'REST APIs',
+        description: 'Designing and consuming RESTful APIs, HTTP methods, authentication, and integration.',
+        icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 14.66V20a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2h5.34"/><polygon points="18 2 22 6 12 16 8 16 8 12 18 2"/></svg>,
+      },
+      {
         name: 'Web Development',
         description: 'Full-stack development, responsive design, and modern web frameworks.',
         icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>,
@@ -73,6 +78,11 @@ const CATEGORIES = [
         name: 'Data Analytics',
         description: 'Data visualization, statistical analysis, and insight-driven decision making.',
         icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M3 3v18h18"/><path d="M7 16l4-8 4 4 4-6"/></svg>,
+      },
+      {
+        name: 'Data Analysis',
+        description: 'Exploratory data analysis, statistical modeling, pandas, and insight extraction.',
+        icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M21 12V7H5a2 2 0 00-2 2v6a2 2 0 002 2h11"/><path d="M15 22v-4v4z"/><path d="M18 22v-6"/><path d="M21 22v-2"/><path d="M3 2v18a2 2 0 002 2h16"/></svg>,
       },
       {
         name: 'Research and Analytics',

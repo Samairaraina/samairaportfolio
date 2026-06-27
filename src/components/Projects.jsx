@@ -174,6 +174,63 @@ const PROJECTS = [
     ),
   },
   {
+    id: '05',
+    title: 'SASYA – AI Agriculture Platform',
+    description: 'An AI-powered agricultural intelligence platform for smarter farming through crop risk prediction, disease detection, weather insights, smart irrigation, and market intelligence.',
+    highlights: [
+      'AI-powered crop risk prediction',
+      'Disease detection & weather insights',
+      'Smart irrigation & market intelligence',
+      'Sustainable farming focus',
+    ],
+    tech: ['JavaScript', 'Web Development', 'AI/ML', 'Agriculture Tech'],
+    demo: 'https://frontend-ruby-one-89.vercel.app/',
+    mockup: (
+      <svg viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="600" height="400" rx="16" fill="#0a0a0a" />
+        <rect x="24" y="20" width="120" height="10" rx="3" fill="#1a1a1a" />
+        <circle cx="570" cy="25" r="4" fill="#1a1a1a" />
+        <circle cx="556" cy="25" r="4" fill="#1a1a1a" />
+        <circle cx="542" cy="25" r="4" fill="#1a1a1a" />
+        <rect x="24" y="48" width="552" height="180" rx="10" fill="#111" stroke="#222" strokeWidth="1" />
+        <rect x="40" y="64" width="160" height="6" rx="3" fill="#2a2a2a" />
+        <rect x="40" y="78" width="110" height="4" rx="2" fill="#1a1a1a" />
+        <path d="M80 120 L120 100 L160 130 L200 110 L240 140" stroke="#2a2a2a" strokeWidth="2" fill="none" />
+        <path d="M80 120 L120 100 L160 130 L200 110 L240 140" stroke="#444" strokeWidth="2" fill="none" strokeDasharray="4 4" />
+        <rect x="40" y="160" width="100" height="6" rx="3" fill="#2a2a2a" />
+        <rect x="40" y="174" width="80" height="4" rx="2" fill="#1a1a1a" />
+        <circle cx="72" cy="142" r="4" fill="#3a3a3a" />
+        <circle cx="128" cy="126" r="4" fill="#3a3a3a" />
+        <circle cx="184" cy="150" r="4" fill="#3a3a3a" />
+        <rect x="300" y="64" width="260" height="148" rx="8" fill="#151515" stroke="#222" strokeWidth="1" />
+        <rect x="316" y="80" width="100" height="5" rx="2.5" fill="#2a2a2a" />
+        <rect x="316" y="92" width="70" height="3" rx="1.5" fill="#1a1a1a" />
+        <rect x="316" y="112" width="228" height="4" rx="2" fill="#1a1a1a" />
+        <rect x="316" y="124" width="200" height="3" rx="1.5" fill="#181818" />
+        <rect x="316" y="144" width="228" height="4" rx="2" fill="#1a1a1a" />
+        <rect x="316" y="156" width="180" height="3" rx="1.5" fill="#181818" />
+        <rect x="316" y="176" width="228" height="4" rx="2" fill="#1a1a1a" />
+        <rect x="316" y="188" width="160" height="3" rx="1.5" fill="#181818" />
+        <rect x="24" y="242" width="270" height="140" rx="10" fill="#111" stroke="#222" strokeWidth="1" />
+        <rect x="40" y="258" width="120" height="6" rx="3" fill="#2a2a2a" />
+        <rect x="40" y="272" width="90" height="4" rx="2" fill="#1a1a1a" />
+        <rect x="40" y="294" width="238" height="5" rx="2.5" fill="#1a1a1a" />
+        <rect x="40" y="308" width="200" height="4" rx="2" fill="#181818" />
+        <rect x="40" y="328" width="238" height="5" rx="2.5" fill="#1a1a1a" />
+        <rect x="40" y="342" width="180" height="4" rx="2" fill="#181818" />
+        <rect x="40" y="358" width="100" height="4" rx="2" fill="#181818" />
+        <rect x="306" y="242" width="270" height="140" rx="10" fill="#111" stroke="#222" strokeWidth="1" />
+        <rect x="322" y="258" width="120" height="6" rx="3" fill="#2a2a2a" />
+        <rect x="322" y="272" width="90" height="4" rx="2" fill="#1a1a1a" />
+        <rect x="322" y="294" width="238" height="5" rx="2.5" fill="#1a1a1a" />
+        <rect x="322" y="308" width="200" height="4" rx="2" fill="#181818" />
+        <rect x="322" y="328" width="238" height="5" rx="2.5" fill="#1a1a1a" />
+        <rect x="322" y="342" width="180" height="4" rx="2" fill="#181818" />
+        <rect x="322" y="358" width="100" height="4" rx="2" fill="#181818" />
+      </svg>
+    ),
+  },
+  {
     id: '04',
     title: 'NGO Website Prototype – InAmigos Foundation',
     description: 'A comprehensive NGO website prototype designed in Figma to enhance awareness, transparency, and community engagement.',

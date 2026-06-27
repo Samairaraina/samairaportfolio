@@ -184,7 +184,7 @@ const PROJECTS = [
       'Sustainable farming focus',
     ],
     tech: ['JavaScript', 'Web Development', 'AI/ML', 'Agriculture Tech'],
-    demo: 'https://frontend-ruby-one-89.vercel.app/',
+    demo: 'https://sasyaforfarmer.vercel.app/',
     mockup: (
       <svg viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect width="600" height="400" rx="16" fill="#0a0a0a" />

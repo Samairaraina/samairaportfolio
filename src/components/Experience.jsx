@@ -24,6 +24,7 @@ const EXPERIENCES = [
       'Gaining hands-on experience in frontend development, website management, and real-world project workflows.',
       'Contributing to digital initiatives that support the foundation\'s social impact and community outreach programs.',
     ],
+    link: 'https://inamigosfoundation.org.in/',
   },
 ]
 

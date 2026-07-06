@@ -1088,7 +1088,22 @@
 .timeline__company {
   font-size: 0.9375rem;
   color: #808080;
+  margin-bottom: 8px;
+}
+
+.timeline__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8125rem;
+  color: #888;
+  text-decoration: none;
   margin-bottom: 12px;
+  transition: color 0.3s ease;
+}
+
+.timeline__link:hover {
+  color: #fff;
 }
 
 .timeline__highlights {

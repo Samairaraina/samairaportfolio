@@ -11,6 +11,7 @@ const EXPERIENCES = [
       'Conducted market research and analyzed customer needs to support business development efforts.',
       'Collaborated with teams to improve product communication and customer engagement.',
     ],
+    link: 'https://www.instagram.com/mag.insights?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
   },
   {
     role: 'Web Development Intern',
@@ -57,6 +58,12 @@ export default function Experience() {
               <span className="timeline__period">{exp.period}</span>
               <h3 className="timeline__role">{exp.role}</h3>
               <p className="timeline__company">{exp.company}</p>
+              {exp.link && (
+                <a href={exp.link} target="_blank" rel="noopener noreferrer" className="timeline__link">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                  Instagram
+                </a>
+              )}
               <ul className="timeline__highlights">
                 {exp.highlights.map((h, j) => (
                   <li key={j}>{h}</li>

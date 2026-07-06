@@ -12,6 +12,7 @@ const EXPERIENCES = [
       'Collaborated with teams to improve product communication and customer engagement.',
     ],
     link: 'https://www.instagram.com/mag.insights?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+    linkLabel: 'Instagram',
   },
   {
     role: 'Web Development Intern',
@@ -25,6 +26,7 @@ const EXPERIENCES = [
       'Contributing to digital initiatives that support the foundation\'s social impact and community outreach programs.',
     ],
     link: 'https://inamigosfoundation.org.in/',
+    linkLabel: 'Website',
   },
 ]
 
@@ -61,8 +63,12 @@ export default function Experience() {
               <p className="timeline__company">{exp.company}</p>
               {exp.link && (
                 <a href={exp.link} target="_blank" rel="noopener noreferrer" className="timeline__link">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-                  Instagram
+                  {exp.linkLabel === 'Instagram' ? (
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                  ) : (
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+                  )}
+                  {exp.linkLabel}
                 </a>
               )}
               <ul className="timeline__highlights">

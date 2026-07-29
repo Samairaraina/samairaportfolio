@@ -112,69 +112,7 @@ const PROJECTS = [
     ),
   },
   {
-    id: '03',
-    title: 'CRISPR Labs',
-    description: 'An interactive educational platform exploring CRISPR-Cas9 gene editing technology and next-generation genetic engineering innovations.',
-    highlights: [
-      'Interactive DNA visualizations',
-      'CRISPR-Cas9 educational content',
-      'Modern biotechnology concepts',
-      'Responsive and immersive user experience',
-    ],
-    tech: ['JavaScript', 'CSS', 'Web Development', 'Research & Analytics'],
-    demo: 'https://dna-liart-one.vercel.app/',
-    mockup: (
-      <svg viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect width="600" height="400" rx="16" fill="#0a0a0a" />
-        <rect x="24" y="20" width="130" height="10" rx="3" fill="#1a1a1a" />
-        <circle cx="570" cy="25" r="4" fill="#1a1a1a" />
-        <circle cx="556" cy="25" r="4" fill="#1a1a1a" />
-        <circle cx="542" cy="25" r="4" fill="#1a1a1a" />
-        <rect x="24" y="48" width="552" height="48" rx="8" fill="#111" stroke="#222" strokeWidth="1" />
-        <circle cx="48" cy="72" r="12" fill="#1a1a1a" stroke="#222" strokeWidth="1" />
-        <rect x="74" y="66" width="80" height="5" rx="2.5" fill="#2a2a2a" />
-        <rect x="74" y="76" width="50" height="3" rx="1.5" fill="#1a1a1a" />
-        <rect x="180" y="66" width="60" height="5" rx="2.5" fill="#2a2a2a" />
-        <rect x="180" y="76" width="40" height="3" rx="1.5" fill="#1a1a1a" />
-        <rect x="270" y="66" width="60" height="5" rx="2.5" fill="#2a2a2a" />
-        <rect x="270" y="76" width="40" height="3" rx="1.5" fill="#1a1a1a" />
-        <rect x="490" y="64" width="70" height="18" rx="5" fill="#222" />
-        <text x="502" y="77" fontSize="7" fill="#555" fontFamily="Outfit">Explore</text>
-        <rect x="24" y="110" width="260" height="130" rx="10" fill="#111" stroke="#222" strokeWidth="1" />
-        <rect x="40" y="126" width="100" height="6" rx="3" fill="#2a2a2a" />
-        <rect x="40" y="140" width="80" height="4" rx="2" fill="#1a1a1a" />
-        <path d="M100 170 Q130 140 160 170 Q190 200 220 170" stroke="#333" strokeWidth="2" fill="none" />
-        <path d="M100 185 Q130 155 160 185 Q190 215 220 185" stroke="#2a2a2a" strokeWidth="2" fill="none" />
-        <path d="M100 170 L100 185" stroke="#333" strokeWidth="1" />
-        <path d="M160 170 L160 185" stroke="#333" strokeWidth="1" />
-        <path d="M220 170 L220 185" stroke="#333" strokeWidth="1" />
-        <circle cx="100" cy="170" r="3" fill="#444" />
-        <circle cx="160" cy="170" r="3" fill="#444" />
-        <circle cx="220" cy="170" r="3" fill="#444" />
-        <circle cx="100" cy="185" r="3" fill="#333" />
-        <circle cx="160" cy="185" r="3" fill="#333" />
-        <circle cx="220" cy="185" r="3" fill="#333" />
-        <rect x="300" y="110" width="276" height="130" rx="10" fill="#111" stroke="#222" strokeWidth="1" />
-        <rect x="316" y="126" width="100" height="6" rx="3" fill="#2a2a2a" />
-        <rect x="316" y="140" width="70" height="4" rx="2" fill="#1a1a1a" />
-        <rect x="316" y="162" width="244" height="5" rx="2.5" fill="#1a1a1a" />
-        <rect x="316" y="176" width="200" height="4" rx="2" fill="#181818" />
-        <rect x="316" y="196" width="244" height="5" rx="2.5" fill="#1a1a1a" />
-        <rect x="316" y="210" width="180" height="4" rx="2" fill="#181818" />
-        <rect x="316" y="225" width="100" height="4" rx="2" fill="#181818" />
-        <rect x="24" y="254" width="552" height="128" rx="10" fill="#111" stroke="#222" strokeWidth="1" />
-        <rect x="40" y="270" width="160" height="6" rx="3" fill="#2a2a2a" />
-        <rect x="40" y="284" width="110" height="4" rx="2" fill="#1a1a1a" />
-        <rect x="40" y="306" width="520" height="5" rx="2.5" fill="#1a1a1a" />
-        <rect x="40" y="320" width="480" height="4" rx="2" fill="#181818" />
-        <rect x="40" y="336" width="500" height="5" rx="2.5" fill="#1a1a1a" />
-        <rect x="40" y="350" width="420" height="4" rx="2" fill="#181818" />
-        <rect x="40" y="366" width="300" height="4" rx="2" fill="#181818" />
-      </svg>
-    ),
-  },
-  {
-    id: '05',
+    id: '04',
     title: 'SASYA – AI Agriculture Platform',
     description: 'An AI-powered agricultural intelligence platform for smarter farming through crop risk prediction, disease detection, weather insights, smart irrigation, and market intelligence.',
     highlights: [
@@ -231,7 +169,7 @@ const PROJECTS = [
     ),
   },
   {
-    id: '04',
+    id: '03',
     title: 'NGO Website Prototype – InAmigos Foundation',
     description: 'A comprehensive NGO website prototype designed in Figma to enhance awareness, transparency, and community engagement.',
     highlights: [

@@ -19,6 +19,11 @@ const CATEGORIES = [
         description: 'Systems programming, memory management, and low-level optimization.',
         icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M18 10v4"/><path d="M14 8h4a2 2 0 012 2v4a2 2 0 01-2 2h-4"/><path d="M6 8h4a2 2 0 012 2v4a2 2 0 01-2 2H6"/><path d="M10 8V6a2 2 0 012-2h4"/><path d="M2 8h4"/></svg>,
       },
+      {
+        name: 'Python',
+        description: 'Python fundamentals, data structures, automation, and problem-solving.',
+        icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2c-4 0-6 1-6 3v2c0 2 2 3 6 3s6-1 6-3V5c0-2-2-3-6-3z"/><path d="M6 8v3c0 2 2 3 6 3s6-1 6-3V8"/><path d="M6 14v3c0 2 2 3 6 3s6-1 6-3v-3"/></svg>,
+      },
     ],
   },
   {

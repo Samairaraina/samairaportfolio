@@ -2,6 +2,12 @@ import { motion } from 'framer-motion'
 
 const CERTIFICATIONS = [
   {
+    title: 'Introduction to Programming Using Python',
+    subtitle: 'Cisco Networking Academy \u2022 Issued Jul 2026',
+    description: 'Completed a comprehensive program covering Python fundamentals, data structures, control flow, functions, and problem-solving techniques.',
+    skills: ['Python'],
+  },
+  {
     title: 'GitHub Workflow Mastery Course with AI',
     subtitle: 'Unstop \u2022 June 2026',
     description: 'Completed a hands-on certification focused on GitHub workflows, version control, collaboration practices, and AI-assisted development techniques.',

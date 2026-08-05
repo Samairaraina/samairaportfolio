@@ -122,7 +122,8 @@ const PROJECTS = [
       'Sustainable farming focus',
     ],
     tech: ['JavaScript', 'Web Development', 'AI/ML', 'Agriculture Tech'],
-    demo: 'https://sasyaforfarmer.vercel.app/',
+    status: 'Under Development',
+    demo: 'https://sasya-ai.vercel.app/',
     mockup: (
       <svg viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect width="600" height="400" rx="16" fill="#0a0a0a" />
@@ -287,6 +288,9 @@ function ProjectCard({ project }) {
           <span className="project-card__number">{project.id}</span>
           <div className="project-card__glass-text">
             <h3 className="project-card__glass-title">{project.title}</h3>
+            {project.status && (
+              <span className="project-card__status">{project.status}</span>
+            )}
             <span className="project-card__glass-action">View Project</span>
           </div>
           <a

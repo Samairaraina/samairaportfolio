@@ -2,6 +2,19 @@ import { motion } from 'framer-motion'
 
 const EXPERIENCES = [
   {
+    role: 'Python Developer',
+    company: 'CodeAlpha · Internship',
+    period: 'Aug 2026 – Present · 1 mo',
+    location: 'Lucknow, Uttar Pradesh, India · Remote',
+    skills: ['Python (Programming Language)'],
+    highlights: [
+      'Developing Python applications and solving real-world problems through code.',
+      'Writing clean, efficient, and maintainable Python code for assigned tasks and projects.',
+      'Applying data structures, algorithms, and best practices in daily development work.',
+      'Learning industry workflows through hands-on development and code reviews.',
+    ],
+  },
+  {
     role: 'Marketing & Sales Intern',
     company: 'MAG, Chandigarh',
     period: 'January 2026 – March 2026',
@@ -61,6 +74,14 @@ export default function Experience() {
               <span className="timeline__period">{exp.period}</span>
               <h3 className="timeline__role">{exp.role}</h3>
               <p className="timeline__company">{exp.company}</p>
+              {exp.location && <p className="timeline__location">{exp.location}</p>}
+              {exp.skills && exp.skills.length > 0 && (
+                <div className="timeline__skills">
+                  {exp.skills.map((skill) => (
+                    <span key={skill} className="timeline__skill-tag">{skill}</span>
+                  ))}
+                </div>
+              )}
               {exp.link && (
                 <a href={exp.link} target="_blank" rel="noopener noreferrer" className="timeline__link">
                   {exp.linkLabel === 'Instagram' ? (

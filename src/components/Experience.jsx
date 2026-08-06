@@ -7,6 +7,8 @@ const EXPERIENCES = [
     period: 'Aug 2026 – Present · 1 mo',
     location: 'Lucknow, Uttar Pradesh, India · Remote',
     skills: [{ name: 'Python (Programming Language)', link: 'https://www.codealpha.tech/' }],
+    link: 'https://www.codealpha.tech/',
+    linkLabel: 'Website',
     highlights: [
       'Developing Python applications and solving real-world problems through code.',
       'Writing clean, efficient, and maintainable Python code for assigned tasks and projects.',

@@ -6,7 +6,7 @@ const EXPERIENCES = [
     company: 'CodeAlpha · Internship',
     period: 'Aug 2026 – Present · 1 mo',
     location: 'Lucknow, Uttar Pradesh, India · Remote',
-    skills: ['Python (Programming Language)'],
+    skills: [{ name: 'Python (Programming Language)', link: 'https://www.codealpha.tech/' }],
     highlights: [
       'Developing Python applications and solving real-world problems through code.',
       'Writing clean, efficient, and maintainable Python code for assigned tasks and projects.',
@@ -78,7 +78,19 @@ export default function Experience() {
               {exp.skills && exp.skills.length > 0 && (
                 <div className="timeline__skills">
                   {exp.skills.map((skill) => (
-                    <span key={skill} className="timeline__skill-tag">{skill}</span>
+                    skill.link ? (
+                      <a
+                        key={skill.name}
+                        href={skill.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="timeline__skill-tag"
+                      >
+                        {skill.name}
+                      </a>
+                    ) : (
+                      <span key={skill.name} className="timeline__skill-tag">{skill.name}</span>
+                    )
                   ))}
                 </div>
               )}

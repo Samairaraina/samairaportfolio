@@ -2,21 +2,6 @@ import { motion } from 'framer-motion'
 
 const EXPERIENCES = [
   {
-    role: 'Python Developer',
-    company: 'CodeAlpha · Internship',
-    period: 'Aug 2026 – Present · 1 mo',
-    location: 'Lucknow, Uttar Pradesh, India · Remote',
-    skills: [{ name: 'Python (Programming Language)', link: 'https://www.codealpha.tech/' }],
-    link: 'https://www.codealpha.tech/',
-    linkLabel: 'Website',
-    highlights: [
-      'Developing Python applications and solving real-world problems through code.',
-      'Writing clean, efficient, and maintainable Python code for assigned tasks and projects.',
-      'Applying data structures, algorithms, and best practices in daily development work.',
-      'Learning industry workflows through hands-on development and code reviews.',
-    ],
-  },
-  {
     role: 'Marketing & Sales Intern',
     company: 'MAG, Chandigarh',
     period: 'January 2026 – March 2026',

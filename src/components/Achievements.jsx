@@ -2,6 +2,12 @@ import { motion } from 'framer-motion'
 
 const CERTIFICATIONS = [
   {
+    title: 'Data Science Essentials With Python',
+    subtitle: 'Cisco Networking Academy \u2022 Issued Aug 2026',
+    description: 'Completed a program covering data science fundamentals using Python, including data analysis, visualization, and statistical techniques.',
+    skills: ['Python', 'Data Science', 'Data Analysis'],
+  },
+  {
     title: 'Introduction to Programming Using Python',
     subtitle: 'Cisco Networking Academy \u2022 Issued Jul 2026',
     description: 'Completed a comprehensive program covering Python fundamentals, data structures, control flow, functions, and problem-solving techniques.',

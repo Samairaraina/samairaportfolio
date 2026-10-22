@@ -2,18 +2,6 @@ import { motion } from 'framer-motion'
 
 const EXPERIENCES = [
   {
-    role: 'Researcher',
-    company: 'JobsUPI · Internship',
-    period: 'Aug 2026 – Present · 1 mo',
-    location: 'Gurugram, Haryana, India · Remote',
-    highlights: [
-      'Conducting research and analyzing data to support business intelligence and decision-making.',
-      'Gathering insights, compiling findings, and presenting actionable recommendations.',
-      'Working with cross-functional teams to gather and interpret research data.',
-      'Developing research methodologies and ensuring accurate data collection and reporting.',
-    ],
-  },
-  {
     role: 'Marketing & Sales Intern',
     company: 'MAG, Chandigarh',
     period: 'January 2026 – March 2026',
